@@ -1,0 +1,7 @@
+.quize-container {
+    display: flex
+}
+
+.quize-btn:hover {
+    background-color: slategrey;
+}
