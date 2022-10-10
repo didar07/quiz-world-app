@@ -2,6 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .nav-name {
@@ -17,6 +23,7 @@
     margin-right: 25px;
     font-size: larger;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .link:hover {
