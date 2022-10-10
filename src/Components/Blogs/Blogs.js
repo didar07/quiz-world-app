@@ -21,10 +21,10 @@ const Blogs = () => {
             </div>
             <div tabIndex={0} className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
                 <div className="collapse-title text-xl font-medium">
-                    what is the purpos of react router?
+                    What is useref in react hooks?
                 </div>
                 <div className="collapse-content">
-                    <p>Purpose of React Router: React Router, and dynamic client-side routing, allow us to build a single-page web application and navigation without the page refreshing as the user navigates. React Router uses a component structure to call components based on the route, which displays the appropriate information.</p>
+                    <p>useRef() is a built-in React hook. This hook accepts one argument as the initial value and returns a reference (known as ref). The reference is the object having a special property current.</p>
                 </div>
             </div>
         </div>
