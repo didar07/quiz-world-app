@@ -1,0 +1,27 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-name {
+    margin-left: 15px;
+}
+
+.nav-link {
+    margin-right: 50px;
+
+}
+
+.link {
+    margin-right: 25px;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.link:hover {
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+}
