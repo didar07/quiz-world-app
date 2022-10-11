@@ -1,0 +1,11 @@
+.question-container {
+    margin-top: 30px;
+    background-color: aliceblue;
+    gap: 20px;
+    padding: 20px;
+}
+
+.answer {
+    margin-bottom: 10px;
+    line-height: 40px;
+}

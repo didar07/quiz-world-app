@@ -1,16 +1,21 @@
 import React from 'react';
+import Option from '../Option/Option';
+import './QuizData.css'
+const QuizData = ({ question, id, correctAnswer, options }) => {
+    // console.log(question.options)
 
-const QuizData = ({ question }) => {
-    console.log(question.options)
+
+
     return (
         <div>
             <div className='question-container'>
                 <h1 className='text-2xl font-bold'>{question.question}</h1>
                 <div className='answer'>
-                    <h3>{question.options[0]}</h3>
-                    <h3>{question.options[1]}</h3>
-                    <h3>{question.options[2]}</h3>
-                    <h3>{question.options[3]}</h3>
+
+                    {
+                        question.options.map(option => <Option key={option.id} option={option}></Option>)
+                    }
+
                 </div>
             </div>
         </div>
