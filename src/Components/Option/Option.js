@@ -4,10 +4,6 @@ import 'react-toastify/dist/ReactToastify.css';
 const Option = ({ id, option, correctAnswer }) => {
     console.log(correctAnswer)
 
-    // const handleAnswer = (answer) => {
-    //     const rightAnswer = option.find(selectedOption => answer === correctAnswer)
-
-    // }
     const handleAnswer = () => {
         if (option === correctAnswer) {
             toast("Wow your answer is correct!!")
