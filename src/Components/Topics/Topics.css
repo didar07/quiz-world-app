@@ -6,7 +6,9 @@
     gap: 20px;
 }
 
-
+.quize-container img {
+    background-color: bisque;
+}
 
 .quize-btn:hover {
     background-color: slategrey;

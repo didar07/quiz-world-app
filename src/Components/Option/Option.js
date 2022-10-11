@@ -11,7 +11,9 @@ const Option = ({ id, option, correctAnswer }) => {
     const handleAnswer = () => {
         if (option === correctAnswer) {
             toast("Wow your answer is correct!!")
-
+        }
+        else {
+            toast('sorry your answer is wrong')
         }
     }
 

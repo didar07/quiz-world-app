@@ -6,8 +6,8 @@ import './QuizData.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const QuizData = ({ question, id, options }) => {
-    // console.log(correctAnswer)
+const QuizData = ({ question }) => {
+
     const { correctAnswer } = question
     console.log(correctAnswer)
 
