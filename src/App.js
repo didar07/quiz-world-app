@@ -38,7 +38,11 @@ function App() {
         }
       ]
     },
-    { path: '*', element: <div>this route is not found</div> }
+    {
+      path: '*', element: <div>
+        <h1 className='text-3xl text-center text-red-600'>oppps!!! this route is not found</h1>
+      </div>
+    }
 
   ])
   return (
