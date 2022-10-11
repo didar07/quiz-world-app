@@ -33,9 +33,7 @@ const Header = () => {
                             </span>
                         </h2>
                         <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                            quae. explicabo.
+                            Be your best self by learning from Quiz World
                         </p>
                         <div className="flex items-center">
                             <a

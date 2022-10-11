@@ -1,8 +1,0 @@
-.quize-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.quize-btn:hover {
-    background-color: slategrey;
-}
