@@ -1,8 +1,10 @@
 import React from 'react';
 import Option from '../Option/Option';
 import './QuizData.css'
-const QuizData = ({ question, id, correctAnswer, options }) => {
-    // console.log(question.options)
+const QuizData = ({ question, id, options }) => {
+    // console.log(correctAnswer)
+    const { correctAnswer } = question
+    console.log(correctAnswer)
 
 
 
@@ -13,7 +15,7 @@ const QuizData = ({ question, id, correctAnswer, options }) => {
                 <div className='answer'>
 
                     {
-                        question.options.map(option => <Option key={option.id} option={option}></Option>)
+                        question.options.map(option => <Option key={option.id} option={option} correctAnswer={correctAnswer}></Option>)
                     }
 
                 </div>
