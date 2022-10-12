@@ -15,7 +15,7 @@ const Option = ({ id, option, correctAnswer }) => {
 
     return (
         <div>
-            <h3> <input type="radio" name={id} onChange={handleAnswer} value={option} className="radio radio-secondary" />
+            <h3> <input type="radio" name={id} onClick={handleAnswer} className="radio radio-secondary" />
                 {option}
             </h3>
             <ToastContainer></ToastContainer>

@@ -35,6 +35,7 @@ const Statistics = () => {
                 <Tooltip />
                 <Line type="monotone" dataKey="total" stroke="#82ca9d" />
             </LineChart>
+            <ResponsiveContainer></ResponsiveContainer>
         </div>
     );
 };
