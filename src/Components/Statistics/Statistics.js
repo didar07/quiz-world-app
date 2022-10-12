@@ -29,13 +29,16 @@ const Statistics = () => {
     ]
     return (
         <div>
-            <LineChart width={500} height={400} data={data}>
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Line type="monotone" dataKey="total" stroke="#82ca9d" />
-            </LineChart>
-            <ResponsiveContainer></ResponsiveContainer>
+            <ResponsiveContainer width="95%" height={400}>
+
+                <LineChart width={500} height={400} data={data}>
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip />
+                    <Line type="monotone" dataKey="total" stroke="#82ca9d" />
+                </LineChart>
+            </ResponsiveContainer>
+
         </div>
     );
 };
